@@ -66,7 +66,7 @@ export default function Home() {
         </section>
 
         <section className="md:mb-60 md:-mt-5 px-10 md:px-20 lg:px-40 lg:-mt-5 ">
-         <div className="md:mb-60">
+         <div className="md:mb-60 xxs:mt-40">
             <h3 className="text-3xl py-8 text-center mx-auto dark:text-slate-600" id="about">About Me</h3>
             <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400"
             >
@@ -189,7 +189,7 @@ export default function Home() {
           <footer className="bg-slate-400 w-screen text-center h-65 pt-40 dark:bg-gray-700 dark:text-slate-400">
             <h3 className="text-center p-3 text-3xl">Get In Touch</h3>
             <p className="p-5">I’m currently looking for any new opportunities, my inbox is always open.</p>
-            <button className="bg-transparent h-9 w-20 text-slate-700 rounded-lg p-1 border border-slate-900 mt-5 hover:bg-slate-500 hover:text-white" onClick={handleButtonClick}>Email</button>
+            <button className="bg-transparent h-9 w-20 text-slate-700 rounded-lg p-1 border border-slate-900 mt-5 hover:bg-slate-500 hover:text-white dark:text-slate-400" onClick={handleButtonClick}>Email</button>
               <ul className=" text-lg mt-40">
                 <li className="p-3 text-slate-700">
                 <p>Created by Donnie Gil &copy;Copyright <span class="year">2023</span></p>

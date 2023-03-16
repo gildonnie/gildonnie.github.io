@@ -11,6 +11,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    screens: {
+      'xxs': '359px', // min-width
+    },
   },
   plugins: [],
 }
