@@ -10,10 +10,17 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    screens: {
-      'xxs': '359px', // min-width
+    extend: {
+      screens: {
+        'xs': { 'raw': '(min-height: 640px)' },
+        // => @media (min-height: 640px) { ... }
+        'xxs': { 'raw': '(min-height: 400px)' },
+        // => @media (min-height: 400px) { ... }
+      }
     },
+    // screens: {
+    //   'xxs': '359px', // min-width
+    // },
   },
   plugins: [],
 }
