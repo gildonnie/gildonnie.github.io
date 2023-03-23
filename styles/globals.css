@@ -52,13 +52,20 @@ a {
     top: 80px;
     right: 0;
     width: 100%;
-    background-color: rgb(71,85,105, .85);
+    background-color: rgb(71,85,105);
     border-top: 2px solid #334155;
     color: rgb(174, 182, 190);
+    box-shadow: 0 25px 20px #7C8B9F;
   }
   
   .navBar li {
     margin-bottom: 20px;
   }
 
+ }
+
+ @media (max-width: 768px) { 
+  .logo {
+    display: none;
+  }
  }
