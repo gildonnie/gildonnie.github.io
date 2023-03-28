@@ -15,6 +15,8 @@ import ES from '../public/ES.png';
 import Poke from '../public/Pokemon.png';
 import Sql from '../public/SQL1.png';
 import Weather from '../public/weather.png';
+import Anime from '../public/anime.png';
+import Iron from '../public/iron.png';
 
 export default function Home() {
 
@@ -81,6 +83,15 @@ export default function Home() {
                   </li>
                   <li
                     className="mr-10 hover:cursor-pointer"  onClick={() => {
+                    const anchor = document.querySelector('#journey')
+                    anchor.scrollIntoView({ behavior: 'smooth'})
+                    setIsMenuOpen(!isMenuOpen);
+                    }}
+                  >
+                    My Journey
+                  </li>
+                  <li
+                    className="mr-10 hover:cursor-pointer"  onClick={() => {
                     const anchor = document.querySelector('#web')
                     anchor.scrollIntoView({ behavior: 'smooth'})
                     setIsMenuOpen(!isMenuOpen);
@@ -127,23 +138,75 @@ export default function Home() {
           </section>
 
           <section className="md:mb-60 md:-mt-5 px-10 md:px-20 lg:px-40 lg:-mt-5 sm:-mt-30 xs:-mt-40 xxs:mt-1">
-          <div className="md:mb-60">
-              <h3 className="pt-60 text-3xl py-8 text-center mx-auto dark:text-slate-600" id="about">About Me</h3>
-              <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400"
+          <div className="md:mb-50">
+            <h3 className="pt-60 text-3xl py-8 text-center mx-auto dark:text-slate-600" id="about">About Me</h3>
+            <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400">
+              Hello, I am a driven and self-motivated individual with a passion for web development and data analysis. As a React JS apprentice at Alpha Works Industries, I have been honing my skills in both areas through personal projects and coursework. <br />
+              I have a strong foundation in HTML, CSS, JavaScript, and React JS, and I have built several web applications that demonstrate my skills in these technologies. I am also proficient in using Git for version control and have experience working in a team environment.  <br />
+              In addition to web development, I have a keen interest in data analysis and have completed several courses in SQL, Excel, and data visualization. I have hands-on experience using SQL, Excel and Tableau to analyze and visualize data. I am comfortable working with large datasets and enjoy finding insights and patterns in the data.  <br />
+              I am a quick learner, and I am always looking for opportunities to expand my skill set and knowledge. I am eager to bring my passion and skills to a dynamic and challenging work environment where I can continue to grow and contribute to the success of the organization.  <br />
+              If you are looking for a driven and enthusiastic web developer or data analyst, I would be a great fit for your team. Thank you for considering me for your open position.
+            </p>
+          </div>
+          <div className="mb-60" >
+            <h3 className="pt-60 text-3xl py-8 text-center mx-auto dark:text-slate-600" id="journey">My Journey</h3>
+            <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400">
+              I first started coding around November 2021. I always had a passion for tech and finally was able to pursue this passion. 
+              I took two coding classes that lasted 6 weeks each with Bitwise Industries. During these first two classes we learned the fundamentals for HTML and CSS.
+              At the end of the class, we had to present our final project which was a simple website. After these 2 classes I was offered a reactJs apprenticeship with them which started in March of 2022.
+              I was able to learn the fundamentals of ReactJs and was able to create multiple projects using different technologies.
+            </p>
+            <div className="md:flex gap-5 md:justify-center">
+              <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700"
               >
-                Hello, I am a driven and self-motivated individual with a passion for web development and data analysis. As a React JS apprentice at Alpha Works Industries, I have been honing my skills in both areas through personal projects and coursework. <br />
-                I have a strong foundation in HTML, CSS, JavaScript, and React JS, and I have built several web applications that demonstrate my skills in these technologies. I am also proficient in using Git for version control and have experience working in a team environment.  <br />
-                In addition to web development, I have a keen interest in data analysis and have completed several courses in SQL, Excel, and data visualization. I have hands-on experience using SQL, Excel and Tableau to analyze and visualize data. I am comfortable working with large datasets and enjoy finding insights and patterns in the data.  <br />
-                I am a quick learner, and I am always looking for opportunities to expand my skill set and knowledge. I am eager to bring my passion and skills to a dynamic and challenging work environment where I can continue to grow and contribute to the success of the organization.  <br />
-                If you are looking for a driven and enthusiastic web developer or data analyst, I would be a great fit for your team. Thank you for considering me for your open position.
-              </p>
+                <Image src={Anime} alt="project-images" width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
+                <h3 className="text-slate-800 text-lg font-medium pt-8 pb-2 dark:text-slate-500">Anime Website</h3>
+                <p className="text-slate-600 py-2 dark:text-slate-400">This was my first website after 5 weeks of of my first coding class</p>
+                <div className="flex justify-center">
+                  <a className="mr-5 text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://gildonnie.github.io/final-project/" target="_blank" rel="noreferrer"><MdOutlineWebAsset /></a>
+                  <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/final-project" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+                </div>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
+                <p className="text-slate-600 py-1 dark:text-slate-400">HTML</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">CSS</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">JavaScript</p>
+              </div>
+              <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700">
+                <Image src={Iron} alt="project-images" width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
+                <h3 className="text-slate-800 text-lg font-medium pt-8 pb-2 dark:text-slate-500">Iron For Iron</h3>
+                <p className="text-slate-600 py-2 dark:text-slate-400">Second Website After my second coding class</p>
+                <div className="flex justify-center">
+                  <a className="mr-5 text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://gildonnie.github.io/" target="_blank" rel="noreferrer"><MdOutlineWebAsset /></a>
+                  <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/gildonnie.github.io" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+                </div>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
+                <p className="text-slate-600 py-1 dark:text-slate-400">HTML</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">CSS</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">Bootstrap</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">JavaScript</p>
+              </div>
+              <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700">
+                <Image src={ES} alt="project-images" width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
+                <h3 className="text-slate-800 text-lg font-medium pt-8 pb-2 dark:text-slate-500">Explore Space</h3>
+                <p className="text-slate-600 py-2 dark:text-slate-400">Full stack application where I use NASAs API. Explore rover images, picture of the day, and asteroids near earth even play a asteroid game. This was also my capstone project for my appernticship</p>
+                <div className="flex justify-center">
+                  <a className="mr-5 text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://capstone-nasa-app.herokuapp.com/" target="_blank" rel="noreferrer"><MdOutlineWebAsset /></a>
+                  <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/capstone-nasa-app" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+                </div>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
+                <p className="text-slate-600 py-1 dark:text-slate-400">ReactJs</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">Reux</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">MongoDB</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">Firebase</p>
+              </div>
             </div>
+          </div>
           <div>
             <h3 className="text-3xl py-8 text-center mx-auto dark:text-slate-600" id="web">Web Development Projects</h3>
             <p className="text-md py-2 leading-8 text-slate-700 md:text-xl md:mb-30 max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400">As a React developer apprentice I have utilized a modern tech stack consisting of React JS as the front-end framework, JavaScript and TypeScript as programming languages, Styled Components for styling, Redux for state management, MongoDB as the backend database, and Firebase for real-time data storage and synchronization. These technologies provided the project with a strong foundation for creating dynamic and interactive user interfaces, managing complex application state, and handling large amounts of data efficiently. The use of MongoDB and Firebase ensured that the application was scalable and able to handle real-time data updates. </p>
           </div>
             <div className="md:flex gap-5 md:justify-center">
-              <div className="bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 lg:max-w-md dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700"
+              <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700"
               >
                 <Image src={Weather} alt="project-images" width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
                 <h3 className="text-slate-800 text-lg font-medium pt-8 pb-2 dark:text-slate-500">Weather App</h3>
@@ -159,7 +222,7 @@ export default function Home() {
                 <p className="text-slate-600 py-1 dark:text-slate-400">SASS</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Styled Components</p>
               </div>
-              <div className="w-30 bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 lg:max-w-md dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700">
+              <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700">
                 <Image src={ES} alt="project-images" width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
                 <h3 className="text-slate-800 text-lg font-medium pt-8 pb-2 dark:text-slate-500">Explore Space</h3>
                 <p className="text-slate-600 py-2 dark:text-slate-400">Full stack application where I use NASAs API. Explore rover images, picture of the day, and asteroids near earth even play a asteroid game.</p>
@@ -173,7 +236,7 @@ export default function Home() {
                 <p className="text-slate-600 py-1 dark:text-slate-400">MongoDB</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Firebase</p>
               </div>
-              <div className="bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 lg:max-w-md dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700">
+              <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700">
                 <Image src={Poke} alt="project-images" width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
                 <h3 className="text-slate-800 text-lg font-medium pt-8 pb-2 dark:text-slate-500">Pokemon Adoption App</h3>
                 <p className="text-slate-600 py-2 dark:text-slate-400">Pokemon application that allows the user to search for pokemon and add to the table once they are adopted they can be removed from it.</p>
@@ -195,7 +258,7 @@ export default function Home() {
               <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400">As a Data Analyst I have utilized SQL, Excel and Tableau. SQL to manage and manipulate data stored in relational databases. And extract data from databases, perform queries and data cleaning, and perform data aggregation and analysis. Excel to easily import, explore, clean, analyze and visualize data. With tableau I created  interactive and dynamic dashboards, reports, and visualizations.</p>
             </div>
             <div className="md:flex gap-10 md:justify-center mb-40">
-              <div className=" bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10     lg:max-w-md dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700"
+              <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10     dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700"
               >
                 <Image src={Sql} alt="project-images"width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
                 <h3 className="text-slate-800 text-lg font-medium pt-8 pb-2 dark:text-slate-500">COVID Project</h3>
@@ -207,7 +270,7 @@ export default function Home() {
                 <p className="text-slate-600 py-1 dark:text-slate-400">SQL</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Excel</p>
               </div>
-              <div className=" bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10     lg:max-w-md dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700"
+              <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10     dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700"
               >
                 <Image src={Sql} alt="project-images" width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
                 <h3 className="text-slate-800 text-lg font-medium pt-8 pb-2 dark:text-slate-500">Cleaning Data Project</h3>
@@ -219,7 +282,7 @@ export default function Home() {
                 <p className="text-slate-600 py-1 dark:text-slate-400">SQL</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Excel</p>
               </div>
-              <div className="bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 lg:max-w-md dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700">
+              <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700">
                 <Image src={Covid} alt="project-images" width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
                 <h3 className="text-slate-800 text-lg font-medium pt-8 pb-2 dark:text-slate-500">COVID Dashboard</h3>
                 <p className="text-slate-600 py-2 dark:text-slate-400">Dashboard that visualizes deaths per country and infections.</p>
@@ -231,7 +294,7 @@ export default function Home() {
                 <p className="text-slate-600 py-1 dark:text-slate-400">Tableau</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Excel</p>
               </div>
-              <div className="bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 lg:max-w-md dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700 ">
+              <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700 ">
                 <Image src={Abnb} alt="project-images" width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
                 <h3 className="text-slate-800 text-lg font-medium pt-8 pb-2 dark:text-slate-500">Airbnb Tableau Dashboard</h3>
                 <p className="text-slate-600 py-2 dark:text-slate-400">Dashboard for potenial client that is looking to see what type of porperty would be more profitable in their city</p>
