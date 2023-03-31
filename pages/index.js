@@ -153,7 +153,7 @@ export default function Home() {
             <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400">
               I first started coding around November 2021. I always had a passion for tech and finally was able to pursue this passion. 
               I took two coding classes that lasted 6 weeks each with Bitwise Industries. During these first two classes we learned the fundamentals for HTML and CSS.
-              At the end of the class, we had to present our final project which was a simple website. After these 2 classes I was offered a reactJs apprenticeship with them which started in March of 2022.
+              At the end of the class, we had to present our final project which was a simple website. After these two classes I was offered a reactJs apprenticeship with them which started in March of 2022.
               I was able to learn the fundamentals of ReactJs and was able to create multiple projects using different technologies.
             </p>
             <div className="md:flex gap-5 md:justify-center">
