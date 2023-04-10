@@ -118,7 +118,7 @@ export default function Home() {
                 <div className=" md:block">
                   <a
                     className="bg-slate-500 text-slate-300 px-4 py-1 rounded-xl ml-8 hover:bg-slate-300 hover:text-slate-500 dark:bg-slate-700 dark:text-slate-400 dark:hover:bg-slate-500 dark:hover:text-slate-800"
-                    href="#"
+                    href="https://docs.google.com/document/d/1nGoqsQtiM3hAlT3X46r6H-Jbl5t9U-ZN/edit?usp=sharing&ouid=102567614860551222590&rtpof=true&sd=true"
                   >
                     Resume
                   </a>
