@@ -65,13 +65,16 @@ export default function Home() {
 
               {/* Hamburger menu */}
               <div className="md:hidden">
-                {!isMenuOpen ? <GiHamburgerMenu onClick={toggleMenu} className="text-3xl hover:cursor-pointer dark:text-slate-400" /> : <div className="text-2xl border-2 border-slate-500 w-8 text-center bg-slate-600 text-slate-400 hover:cursor-pointer ml-5" onClick={toggleMenu}>X</div>}
+                {!isMenuOpen ? <GiHamburgerMenu onClick={toggleMenu} className="text-3xl hover:cursor-pointer dark:text-slate-400" /> : <div className=" text-2xl border-2 border-slate-500 w-8 text-center bg-slate-600 text-slate-400 hover:cursor-pointer ml-5" onClick={toggleMenu}>X</div>}
               </div>
 
               {/* Navigation links */}
               <div className={` md:flex md:items-center ${isMenuOpen ? 'flex ' : 'hidden'}`}>
                 
                 <ul className="navBar flex pt-7 font-normal text-slate-700 dark:text-slate-400">
+                  <li>
+                    
+                  </li>
                   <li
                     className="mr-10 hover:cursor-pointer"  onClick={() => {
                     const anchor = document.querySelector('#about')
@@ -125,7 +128,7 @@ export default function Home() {
 
             <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-slate-800 font-medium md:text-7xl dark:text-slate-600">Donnie Gil</h2>
-              <h3 className="text-2xl py-2 text-slate-700 md:text-3xl dark:text-slate-400">Developer and Analyst</h3>
+              <h3 className="text-2xl py-2 text-slate-700 md:text-3xl dark:text-slate-400">Developer and Data Analyst</h3>
               <p className="text-md py-5 leading-8 text-slate-800 md:text-xl max-w-xl mx-auto dark:text-slate-300">ReactJs Apprentice. Building user-friendly and dynamic web interfaces</p>
             </div>
             <div className="text-3xl flex justify-center gap-16 text-slate-600 dark:text-slate-300">
