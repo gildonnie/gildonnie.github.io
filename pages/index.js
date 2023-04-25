@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Head from 'next/head';
 import { BsFillMoonStarsFill, BsFillSunFill } from 'react-icons/bs';
 import { MdOutlineWebAsset } from 'react-icons/md';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub, AiOutlineClose } from 'react-icons/ai';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { SiTableau } from 'react-icons/si'
 import Image from 'next/image';
@@ -65,7 +65,7 @@ export default function Home() {
 
               {/* Hamburger menu */}
               <div className="md:hidden">
-                {!isMenuOpen ? <GiHamburgerMenu onClick={toggleMenu} className="text-3xl hover:cursor-pointer dark:text-slate-400" /> : <div className=" text-2xl border-2 border-slate-500 w-8 text-center bg-slate-600 text-slate-400 hover:cursor-pointer ml-5" onClick={toggleMenu}>X</div>}
+                {!isMenuOpen ? <GiHamburgerMenu onClick={toggleMenu} className="text-3xl hover:cursor-pointer dark:text-slate-400" /> : <AiOutlineClose className=" text-3xl border-2 h-8 border-slate-600  text-center bg-black text-slate-400 hover:cursor-pointer ml-5" onClick={toggleMenu}>X</AiOutlineClose>}
               </div>
 
               {/* Navigation links */}
