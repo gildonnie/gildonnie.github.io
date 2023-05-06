@@ -17,6 +17,7 @@ import Sql from '../public/SQL1.png';
 import Weather from '../public/weather.png';
 import Anime from '../public/anime.png';
 import Iron from '../public/iron.png';
+import ACTA from '../public/ACTA.png'
 
 export default function Home() {
 
@@ -170,7 +171,7 @@ export default function Home() {
                   <a className="mr-5 text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://gildonnie.github.io/final-project/" target="_blank" rel="noreferrer"><MdOutlineWebAsset /></a>
                   <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/final-project" target="_blank" rel="noreferrer"><AiFillGithub /></a>
                 </div>
-                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
                 <p className="text-slate-600 py-1 dark:text-slate-400">HTML</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">CSS</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">JavaScript</p>
@@ -183,7 +184,7 @@ export default function Home() {
                   <a className="mr-5 text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://gildonnie.github.io/" target="_blank" rel="noreferrer"><MdOutlineWebAsset /></a>
                   <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/gildonnie.github.io" target="_blank" rel="noreferrer"><AiFillGithub /></a>
                 </div>
-                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
                 <p className="text-slate-600 py-1 dark:text-slate-400">HTML</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">CSS</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Bootstrap</p>
@@ -197,7 +198,7 @@ export default function Home() {
                   <a className="mr-5 text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://capstone-nasa-app.herokuapp.com/" target="_blank" rel="noreferrer"><MdOutlineWebAsset /></a>
                   <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/capstone-nasa-app" target="_blank" rel="noreferrer"><AiFillGithub /></a>
                 </div>
-                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
                 <p className="text-slate-600 py-1 dark:text-slate-400">ReactJs</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Reux</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">MongoDB</p>
@@ -219,7 +220,7 @@ export default function Home() {
                   <a className="mr-5 text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://gildonnie.github.io/weather-app/" target="_blank" rel="noreferrer"><MdOutlineWebAsset /></a>
                   <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/weather-app" target="_blank" rel="noreferrer"><AiFillGithub /></a>
                 </div>
-                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
                 <p className="text-slate-600 py-1 dark:text-slate-400">ReactJs</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Axios</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Redux</p>
@@ -227,18 +228,17 @@ export default function Home() {
                 <p className="text-slate-600 py-1 dark:text-slate-400">Styled Components</p>
               </div>
               <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700">
-                <Image src={ES} alt="project-images" width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
-                <h3 className="text-slate-800 text-lg font-medium pt-8 pb-2 dark:text-slate-500">Explore Space</h3>
-                <p className="text-slate-600 py-2 dark:text-slate-400">Full stack application where I use NASAs API. Explore rover images, picture of the day, and asteroids near earth even play a asteroid game.</p>
+                <Image src={ACTA} alt="project-images" width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
+                <h3 className="text-slate-800 text-lg font-medium pt-8 pb-2 dark:text-slate-500">SJVCCC</h3>
+                <p className="text-slate-600 py-2 dark:text-slate-400">Wordpress website for artist in the central valley that can show their work. They can make signup and create a profile where they can plug their work.</p>
                 <div className="flex justify-center">
-                  <a className="mr-5 text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://capstone-nasa-app.herokuapp.com/" target="_blank" rel="noreferrer"><MdOutlineWebAsset /></a>
-                  <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/capstone-nasa-app" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+                  <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/Shift3/ACTA-SJVCCC" target="_blank" rel="noreferrer"><AiFillGithub /></a>
                 </div>
-                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
-                <p className="text-slate-600 py-1 dark:text-slate-400">ReactJs</p>
-                <p className="text-slate-600 py-1 dark:text-slate-400">Reux</p>
-                <p className="text-slate-600 py-1 dark:text-slate-400">MongoDB</p>
-                <p className="text-slate-600 py-1 dark:text-slate-400">Firebase</p>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
+                <p className="text-slate-600 py-1 dark:text-slate-400">Wordpress</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">PHP</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">JavaScript</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">SASS</p>
               </div>
               <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700">
                 <Image src={Poke} alt="project-images" width={130} height={130} className="inline rounded-full shadow-md shadow-slate-600 dark:shadow-slate-800 "/>
@@ -248,7 +248,7 @@ export default function Home() {
                   <a className="mr-5 text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://gildonnie.github.io/pokemon_adopt/" target="_blank" rel="noreferrer"><MdOutlineWebAsset /></a>
                   <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/pokemon_adopt" target="_blank" rel="noreferrer"><AiFillGithub /></a>
                 </div>
-                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
                 <p className="text-slate-600 py-1 dark:text-slate-400">ReactJs</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">SCSS</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Fetch</p>
@@ -270,7 +270,7 @@ export default function Home() {
                 <div className="flex justify-center">
                   <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/SQL-Projects/blob/main/COVID%20Portfolio%20Project.sql" target="_blank" rel="noreferrer"><AiFillGithub /></a>
                 </div>
-                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
                 <p className="text-slate-600 py-1 dark:text-slate-400">SQL</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Excel</p>
               </div>
@@ -282,7 +282,7 @@ export default function Home() {
                 <div className="flex justify-center">
                   <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/SQL-Projects/blob/main/Cleaning%20Data%20Project.sql" target="_blank" rel="noreferrer"><AiFillGithub /></a>
                 </div>
-                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
                 <p className="text-slate-600 py-1 dark:text-slate-400">SQL</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Excel</p>
               </div>
@@ -293,7 +293,7 @@ export default function Home() {
                 <div className="flex justify-center">
                   <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://public.tableau.com/app/profile/donnie.gil/viz/TableauCOVIDProject_16752805228030/Dashboard1" target="_blank" rel="noreferrer"><SiTableau /></a>
                 </div>
-                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
                 <p className="text-slate-600 py-1 dark:text-slate-400">SQL</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Tableau</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Excel</p>
@@ -305,7 +305,7 @@ export default function Home() {
                 <div className="flex justify-center">
                   <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://public.tableau.com/app/profile/donnie.gil/viz/AirbnbFullProject_16739257188830/Dashboard1" target="_blank" rel="noreferrer"><SiTableau /></a>
                 </div>
-                <h4 className="py-4 text-slate-800 dark:text-slate-500">Technologies used</h4>
+                <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
                 <p className="text-slate-600 py-1 dark:text-slate-400">SQL</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Tableau</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Excel</p>
