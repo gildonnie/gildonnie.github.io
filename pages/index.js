@@ -47,7 +47,7 @@ export default function Home() {
         </Head>
         <main className="bg-slate-400 dark:bg-gray-800 static">
           <a className="fixed bottom-0 right-0 m-5 bg-slate-500 text-slate-300 px-4 py-1 rounded-xl hover:bg-slate-300 hover:text-slate-500 dark:bg-slate-700 dark:text-slate-400 dark:hover:bg-slate-500 dark:hover:text-slate-800 border-2 border-slate-400" href="#">Top</a>
-          <section className="h-screen px-10 md:px-20 lg:px-40">
+          <section className="h-[800px] px-10 md:px-20 lg:px-40">
             <nav className="py-4 mb-12 flex justify-between items-center">
               {/* <a className="logo cursor-pointer">
                 {!darkMode ? ( <Image src={Dlogo} alt="nav-logo" width={130} height={130} className="w-20 md:w-30 dark:text-slate-100" />) : ( <Image src={DlogoDmode} alt="nav-logo" width={130} height={130} className="w-20 md:w-30 dark:text-slate-100" /> )}
@@ -131,7 +131,7 @@ export default function Home() {
             <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-slate-800 font-medium md:text-7xl dark:text-slate-600">Donnie Gil</h2>
               <h3 className="text-2xl py-2 text-slate-700 md:text-3xl dark:text-slate-400">Developer and Data Analyst</h3>
-              <p className="text-md py-5 leading-8 text-slate-800 md:text-xl max-w-xl mx-auto dark:text-slate-300">ReactJs Apprentice. Building user-friendly and dynamic web interfaces</p>
+              <p className="text-md py-5 leading-8 text-slate-800 md:text-xl max-w-xl mx-auto dark:text-slate-300">React Apprentice. Building user-friendly and dynamic web interfaces</p>
             </div>
             <div className="text-3xl flex justify-center gap-16 text-slate-600 dark:text-slate-300">
               <a className="hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie" target="_blank" rel="noreferrer"><AiFillGithub /></a>
@@ -142,24 +142,19 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="md:mb-60 md:-mt-5 px-10 md:px-20 lg:px-40 lg:-mt-5 sm:-mt-30 xs:-mt-40 xxs:mt-1">
+          <section className="md:mb-60 md:-mt-5 px-10 md:px-20 lg:px-40 sm:-mt-30 xs:-mt-40 xxs:mt-1">
           <div className="md:mb-50">
             <h3 className="pt-60 text-3xl py-8 text-center mx-auto dark:text-slate-600" id="about">About Me</h3>
             <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400">
-              Hello, I am a driven and self-motivated individual with a passion for web development and data analysis. As a React JS apprentice at Alpha Works Industries, I have been honing my skills in both areas through personal projects and coursework. <br />
-              I have a strong foundation in HTML, CSS, JavaScript, and React JS, and I have built several web applications that demonstrate my skills in these technologies. I am also proficient in using Git for version control and have experience working in a team environment.  <br />
-              In addition to web development, I have a keen interest in data analysis and have completed several courses in SQL, Excel, and data visualization. I have hands-on experience using SQL, Excel and Tableau to analyze and visualize data. I am comfortable working with large datasets and enjoy finding insights and patterns in the data.  <br />
-              I am a quick learner, and I am always looking for opportunities to expand my skill set and knowledge. I am eager to bring my passion and skills to a dynamic and challenging work environment where I can continue to grow and contribute to the success of the organization.  <br />
+              Hello, I am a driven and self-motivated individual with a passion for web development and data analysis.  <br />
+              I am a quick learner, and I am always looking for opportunities to expand my skill set and knowledge. <br />I am eager to bring my passion and skills to a dynamic and challenging work environment where I can continue to grow and contribute to the success of the organization.
               If you are looking for a driven and enthusiastic web developer or data analyst, I would be a great fit for your team. Thank you for considering me for your open position.
             </p>
           </div>
           <div className="mb-60" >
             <h3 className="pt-60 text-3xl py-8 text-center mx-auto dark:text-slate-600" id="journey">My Journey</h3>
             <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400">
-              I first started coding around November 2021. I always had a passion for tech and finally was able to pursue this passion. 
-              I took two coding classes that lasted 6 weeks each with Bitwise Industries. During these first two classes we learned the fundamentals for HTML and CSS.
-              At the end of the class, we had to present our final project which was a simple website. After these two classes I was offered a reactJs apprenticeship with them which started in March of 2022.
-              I was able to learn the fundamentals of ReactJs and was able to create multiple projects using different technologies.
+            I’ve always had a passion for technology more precise coding.  I was a pest control technician trying to learn how to code but it found it difficult to find a solid structure I could use to self-teach myself. I was told about classes offered by Bitwise industries and their apprenticeship program. I gave them a try and these classes solidified that I do indeed love coding. I was able to pick up the material quickly from knowing nothing to learning the basics of HTML and CSS and was able to create my first site. I was offered a React Apprenticeship in which I was able to expand my knowledge in multiple technologies. I came a long way in a year to knowing little to nothing about building a website to now being able to make a full stack site.
             </p>
             <div className="md:flex gap-5 md:justify-center">
               <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700"
@@ -199,7 +194,7 @@ export default function Home() {
                   <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/capstone-nasa-app" target="_blank" rel="noreferrer"><AiFillGithub /></a>
                 </div>
                 <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
-                <p className="text-slate-600 py-1 dark:text-slate-400">ReactJs</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">React</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Reux</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">MongoDB</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Firebase</p>
@@ -221,7 +216,7 @@ export default function Home() {
                   <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/weather-app" target="_blank" rel="noreferrer"><AiFillGithub /></a>
                 </div>
                 <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
-                <p className="text-slate-600 py-1 dark:text-slate-400">ReactJs</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">React</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Axios</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Redux</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">SASS</p>
@@ -249,7 +244,7 @@ export default function Home() {
                   <a className="text-2xl hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie/pokemon_adopt" target="_blank" rel="noreferrer"><AiFillGithub /></a>
                 </div>
                 <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
-                <p className="text-slate-600 py-1 dark:text-slate-400">ReactJs</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">React</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">SCSS</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Fetch</p>
               </div>
