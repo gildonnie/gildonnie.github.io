@@ -131,7 +131,7 @@ export default function Home() {
             <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-slate-800 font-medium md:text-7xl dark:text-slate-600">Donnie Gil</h2>
               <h3 className="text-2xl py-2 text-slate-700 md:text-3xl dark:text-slate-400">Developer and Data Analyst</h3>
-              <p className="text-md py-5 leading-8 text-slate-800 md:text-xl max-w-xl mx-auto dark:text-slate-300">React Apprentice. Building user-friendly and dynamic web interfaces</p>
+              <p className="text-md py-5 leading-8 text-slate-800 md:text-xl max-w-xl mx-auto dark:text-slate-300">Building user-friendly and dynamic web interfaces</p>
             </div>
             <div className="text-3xl flex justify-center gap-16 text-slate-600 dark:text-slate-300">
               <a className="hover:text-slate-700 dark:hover:text-slate-500" href="https://github.com/gildonnie" target="_blank" rel="noreferrer"><AiFillGithub /></a>
@@ -145,7 +145,7 @@ export default function Home() {
           <section className="md:mb-60 md:-mt-5 px-10 md:px-20 lg:px-40 sm:-mt-30 xs:-mt-40 xxs:mt-1">
           <div className="md:mb-50">
             <h3 className="pt-60 text-3xl py-8 text-center mx-auto dark:text-slate-600" id="about">About Me</h3>
-            <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400">
+            <p className="text-md text-center py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400">
               Hello, I am a driven and self-motivated individual with a passion for web development and data analysis.  <br />
               I am a quick learner, and I am always looking for opportunities to expand my skill set and knowledge. <br />I am eager to bring my passion and skills to a dynamic and challenging work environment where I can continue to grow and contribute to the success of the organization.
               If you are looking for a driven and enthusiastic web developer or data analyst, I would be a great fit for your team. Thank you for considering me for your open position.
@@ -153,7 +153,7 @@ export default function Home() {
           </div>
           <div className="mb-60" >
             <h3 className="pt-60 text-3xl py-8 text-center mx-auto dark:text-slate-600" id="journey">My Journey</h3>
-            <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400">
+            <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400 text-center">
             I’ve always had a passion for technology more precise coding.  I was a pest control technician trying to learn how to code but it found it difficult to find a solid structure I could use to self-teach myself. I was told about classes offered by Bitwise industries and their apprenticeship program. I gave them a try and these classes solidified that I do indeed love coding. I was able to pick up the material quickly from knowing nothing to learning the basics of HTML and CSS and was able to create my first site. I was offered a React Apprenticeship in which I was able to expand my knowledge in multiple technologies. I came a long way in a year to knowing little to nothing about building a website to now being able to make a full stack site.
             </p>
             <div className="md:flex gap-5 md:justify-center">
@@ -195,7 +195,7 @@ export default function Home() {
                 </div>
                 <h4 className="py-4 text-slate-800 dark:text-slate-500 font-bold underline underline-offset-1">Used</h4>
                 <p className="text-slate-600 py-1 dark:text-slate-400">React</p>
-                <p className="text-slate-600 py-1 dark:text-slate-400">Reux</p>
+                <p className="text-slate-600 py-1 dark:text-slate-400">Redux</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">MongoDB</p>
                 <p className="text-slate-600 py-1 dark:text-slate-400">Firebase</p>
               </div>
@@ -203,7 +203,7 @@ export default function Home() {
           </div>
           <div>
             <h3 className="text-3xl py-8 text-center mx-auto dark:text-slate-600" id="web">Web Development Projects</h3>
-            <p className="text-md py-2 leading-8 text-slate-700 md:text-xl md:mb-30 max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400">As a React developer apprentice I have utilized a modern tech stack consisting of React JS as the front-end framework, JavaScript and TypeScript as programming languages, Styled Components for styling, Redux for state management, MongoDB as the backend database, and Firebase for real-time data storage and synchronization. These technologies provided the project with a strong foundation for creating dynamic and interactive user interfaces, managing complex application state, and handling large amounts of data efficiently. The use of MongoDB and Firebase ensured that the application was scalable and able to handle real-time data updates. </p>
+            <p className="text-md py-2 leading-8 text-slate-700 md:text-xl md:mb-30 max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400 text-center">As a React developer apprentice I have utilized a modern tech stack consisting of React JS as the front-end framework, JavaScript and TypeScript as programming languages, Styled Components for styling, Redux for state management, MongoDB as the backend database, and Firebase for real-time data storage and synchronization. These technologies provided the project with a strong foundation for creating dynamic and interactive user interfaces, managing complex application state, and handling large amounts of data efficiently. The use of MongoDB and Firebase ensured that the application was scalable and able to handle real-time data updates. </p>
           </div>
             <div className="md:flex gap-5 md:justify-center">
               <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10 dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700"
@@ -254,7 +254,7 @@ export default function Home() {
           <section className="px-10 md:px-20 lg:px-40">
             <div>
               <h3 className="text-3xl py-8 dark:text-slate-600 text-center" id="data">Data Analytics Portfolio</h3>
-              <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400">As a Data Analyst I have utilized SQL, Excel and Tableau. SQL to manage and manipulate data stored in relational databases. And extract data from databases, perform queries and data cleaning, and perform data aggregation and analysis. Excel to easily import, explore, clean, analyze and visualize data. With tableau I created  interactive and dynamic dashboards, reports, and visualizations.</p>
+              <p className="text-md py-2 leading-8 text-slate-700 md:text-xl max-w-1xl mx-auto lg:text-xl max-w-6xl dark:text-slate-400 text-center">As a Data Analyst I have utilized SQL, Excel and Tableau. SQL to manage and manipulate data stored in relational databases. And extract data from databases, perform queries and data cleaning, and perform data aggregation and analysis. Excel to easily import, explore, clean, analyze and visualize data. With tableau I created  interactive and dynamic dashboards, reports, and visualizations.</p>
             </div>
             <div className="md:flex gap-10 md:justify-center mb-40">
               <div className="pro-contain bg-slate-300 text-center shadow-md shadow-slate-600 p-10 rounded-lg my-10     dark:shadow-gray-900 dark:shadow-lg dark:bg-gray-700"
